@@ -46,7 +46,7 @@ function App() {
   return (
     <>
       <img src={budgetLogo} className="logo" alt="Financial Dashboard" />
-      <h1 className="header">Financial Dashboard -</h1>
+      <h1 className="header">Financial Dashboard</h1>
       <div className="dashboard">
         <input
           value={stockSymbol}
