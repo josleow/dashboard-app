@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.dashboard{display:flex; justify-items: flex-start;}
+
+.dashboard-input{
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.dashboard button{
+  background-color: #037dfb;
+  border-radius: 3px;
+  color: #fff;
+  padding: 7px 15px;
+}
+
+.stock-list h2.header, .stock-list p, .loading-text, .not-matched{text-align: left;}
+.stock-list .info{box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; text-align: left; padding: 20px; margin-bottom: 10px;}
+.stock-list .info span.text-green{color: green;font-weight: bold;}
+.stock-list .info span.text-red{color: red; font-weight:bold}
+
+.stock-list .info h3, .stock-list .info p{margin: 0}
+.stock-list .info p:last-child{margin-top: 10px}
